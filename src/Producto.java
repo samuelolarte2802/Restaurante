@@ -8,7 +8,9 @@ abstract class Producto {
     }
 
     public String getNombre() {
+
         return nombre;
+
     }
 
     public abstract String getTipo();
