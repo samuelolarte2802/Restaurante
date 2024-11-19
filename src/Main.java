@@ -6,6 +6,8 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
+        //Trabajo realizado por Samuel Olarte y Brayan Torres 
+        //Link para ingresar al UML: https://lucid.app/lucidchart/4e24a7f6-6b34-4d67-8f3a-48133bb16546/edit?viewport_loc=-217%2C40%2C2303%2C1087%2CHWEp-vi-RSFO&invitationId=inv_36fa056a-586f-44ec-bab5-131f2cbe27ae
         Inventario inventario = new Inventario();
         Menu menu = new Menu(inventario);
         Pedido pedido = new Pedido(menu);
